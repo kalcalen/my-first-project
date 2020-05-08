@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+.title-1,
+.title-2,
+.title-3 {
+   cursor: pointer;
+   user-select: none;
+}
+body {
+   margin: 4em;
+}
+
+h1 {
+   text-align: center;
+   font-family: "Luckiest Guy", cursive;
+   color: #006666;
+}
+h2 {
+   font-family: "Luckiest Guy", cursive;
+   color: #orange;
+}
+h3 {
+   font-family: "Luckiest Guy", cursive;
+   color: rgb(180, 15, 15);
+}
+h4 {
+   font-family: "Luckiest Guy", cursive;
+   color: #4c9900;
+}
+.smaller-image {
+   width: 50px;
+}
+.thin-black-border {
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+}
+
+.content {
+   max-width: 500px;
+   margin: auto;
+}

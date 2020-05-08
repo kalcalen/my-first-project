@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+   <body>
+      <div class="row align-items-center d-flex justify-content-center mt-5">
+         <img
+            class="rounded-circle smaller-image thin-black-border"
+            src="https://cdn.glitch.com/b6f776d4-b298-4276-bf50-2bd71d5355e4%2F61B1CF58-BE82-42FC-A9BA-1B956658C5E8_4_5005_c.jpeg?v=1588707512027"
+            width="32px"
+         />
+         <h1 class="ml-33">
+            Kevin Alcalen
+         </h1>
+      </div>
+      <!-- Info1 -->
+      <div class="col-11 mt-3">
+         <div class="row">
+            <img
+               src="https://cdn.glitch.com/b6f776d4-b298-4276-bf50-2bd71d5355e4%2Fcaret-right-6x.png?v=1588793552554"
+               class="caret-right"
+            />
+            <h2 class="title-1">
+               Sushi Samba
+            </h2>
+         </div>
+         <p id="p1" style="display: none;">
+            I worked at Sushi Samba at the Palazzo casino for 6 years. Sushi
+            Samba is a restaurant that celbrates three cultures - Peruvian,
+            Japanese, and Brazilian. Here, I worked as a busser, food runner,
+            and server.
+         </p>
+      </div>
+      <!-- Info2 -->
+      <div class="col-11">
+         <div class="row">
+            <img
+               src="https://cdn.glitch.com/b6f776d4-b298-4276-bf50-2bd71d5355e4%2Fcaret-right-6x.png?v=1588793552554"
+               class="caret-right-1"
+            />
+            <h3 class="title-2">
+               Momofuku
+            </h3>
+         </div>
+         <p id="p2" style="display: none;">
+            I also worked at Momofuku at the Cosmopolitan casino for 3 years.
+            Momofuku is owned by celeberity chef David Chang and is a fusion of
+            Asian-American food served family-stlye. Here, I worked as a busser.
+         </p>
+      </div>
+      <!-- Info3 -->
+      <div class="col-11">
+         <div class="row">
+            <img
+               src="https://cdn.glitch.com/b6f776d4-b298-4276-bf50-2bd71d5355e4%2Fcaret-right-6x.png?v=1588793552554"
+               class="caret-right-3"
+            />
+            <h4 class="title-3">
+               Palo Verde HS
+            </h4>
+         </div>
+         <p id="p3" style="display: none;">
+            Palo Verde highschool is where I graduated. I graduated in 2010.
+         </p>
+      </div>
+      <div class="col-12">
+         <h5 class="mt-5">
+            Contact Me
+         </h5>
+      </div>
+      <div class="col-12">
+         <label for="professional-reason"
+            ><input
+               id="professional-reason"
+               type="radio"
+               name="reason-for-inquiry"
+            />This is a professional request</label
+         >
+      </div>
+
+      <div class="col-12">
+         <label for="personal-reason"
+            ><input
+               id="personal-reason"
+               type="radio"
+               name="reason-for-inquiry"
+            />This is a personal request</label
+         >
+         <div class="col-12 mb-6 mt-2">
+            <textarea
+               name="textarea"
+               rows="4"
+               cols="40"
+               placeholder="Comment here."
+               id="email-body"
+            ></textarea>
+         </div>
+         <div class="col-12">
+            <div class="custom-control custom-checkbox">
+               <input
+                  type="checkbox"
+                  class="custom-control-input is-invalid"
+                  id="check-box"
+               />
+               <label class="custom-control-label" for="check-box"
+                  >Check to prove you are not a robot.</label
+               >
+            </div>
+            <div class="col-6"></div>
+            <button
+               id="email-button"
+               disabled
+               type="button"
+               class="mt-4 btn btn-primary btn-lg"
+            >
+               Submit
+            </button>
+         </div>
+      </div>
+
+      <!-- jQuerry -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+      <!-- javascript file -->
+      <script src="/script.js" defer></script>
+   </body>
+</html>
